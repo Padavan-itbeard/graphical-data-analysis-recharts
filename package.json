@@ -1,5 +1,8 @@
 {
   "name": "reacharts",
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "npm-force-resolutions": "0.0.3"
   }
 }
