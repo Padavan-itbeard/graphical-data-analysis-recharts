@@ -1,18 +1,18 @@
-body {
-  margin: 0;
-}
-.root {
+html, body {
   height: 100%;
+}
+
+body {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
+
 #container {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px; 
-
   width: 800px;
   height: 800px;
   background-color: #fff;

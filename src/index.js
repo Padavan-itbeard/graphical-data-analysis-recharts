@@ -1,6 +1,7 @@
 import { LineChart, Line, Tooltip, XAxis, YAxis, CartesianGrid, Legend } from "recharts";
 import ReactDOM from "react-dom";
 import React from "react";
+import './index.css';
 
 const data = [
   { name: "Page A", uv: 4000, pv: 2400, amt: 2400 },
